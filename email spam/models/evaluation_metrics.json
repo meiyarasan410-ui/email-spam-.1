@@ -1,0 +1,111 @@
+{
+    "best_model": "Support Vector Machine",
+    "models": {
+        "Naive Bayes": {
+            "accuracy": 0.9738,
+            "precision": 0.955,
+            "recall": 0.8281,
+            "f1_score": 0.887,
+            "roc_auc": 0.9821,
+            "cv_f1_mean": 0.9419,
+            "cv_f1_std": 0.0137,
+            "confusion_matrix": {
+                "tn": 896,
+                "fp": 5,
+                "fn": 22,
+                "tp": 106
+            }
+        },
+        "Logistic Regression": {
+            "accuracy": 0.967,
+            "precision": 0.9608,
+            "recall": 0.7656,
+            "f1_score": 0.8522,
+            "roc_auc": 0.9851,
+            "cv_f1_mean": 0.8496,
+            "cv_f1_std": 0.0099,
+            "confusion_matrix": {
+                "tn": 897,
+                "fp": 4,
+                "fn": 30,
+                "tp": 98
+            }
+        },
+        "Support Vector Machine": {
+            "accuracy": 0.9815,
+            "precision": 0.9658,
+            "recall": 0.8828,
+            "f1_score": 0.9224,
+            "roc_auc": 0.99,
+            "cv_f1_mean": 0.9328,
+            "cv_f1_std": 0.0111,
+            "confusion_matrix": {
+                "tn": 897,
+                "fp": 4,
+                "fn": 15,
+                "tp": 113
+            }
+        }
+    },
+    "top_spam_keywords": [
+        "claim",
+        "prize",
+        "tone",
+        "award",
+        "urltoken",
+        "numbertoken free",
+        "guarante",
+        "rington",
+        "numbertoken claim",
+        "moneytoken prize",
+        "moneytoken cash",
+        "stop numbertoken",
+        "150ppm",
+        "box numbertoken",
+        "\u00e3\u0082\u00e2",
+        "\u00e3\u0082\u00e2 moneytoken",
+        "nokia",
+        "valid",
+        "po box",
+        "unsubscrib",
+        "150p",
+        "call numbertoken",
+        "tri contact",
+        "deliveri",
+        "bonu"
+    ],
+    "top_ham_keywords": [
+        "ltgt",
+        "lor",
+        "da",
+        "wat",
+        "much",
+        "later",
+        "ill",
+        "\u00e3\u0083\u00e2\u00bc",
+        "lol",
+        "anyth",
+        "that",
+        "watch",
+        "sure",
+        "said",
+        "finish",
+        "someth",
+        "plan",
+        "morn",
+        "sleep",
+        "didnt",
+        "gonna",
+        "oh",
+        "say",
+        "soon",
+        "late"
+    ],
+    "dataset_stats": {
+        "total_records": 5151,
+        "train_records": 4122,
+        "test_records": 1029,
+        "spam_count": 642,
+        "ham_count": 4509
+    }
+}
